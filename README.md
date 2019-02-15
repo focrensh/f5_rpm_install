@@ -9,6 +9,7 @@ This repo contains AS3 3.8 as an example RPM for F5 within its folder structure 
 
 #### Python
 
+* `cd python/`
 * Set VARS in the script starting around line 55.
 * Run `python rpm_install.py`
 * The script will loop over each BIG-IP defined within the scripts *bigips* var.
@@ -16,6 +17,7 @@ This repo contains AS3 3.8 as an example RPM for F5 within its folder structure 
 
 #### Shell/ICRDK
 
+* `cd shell/`
 * ICRDK is a tool for managing RPMs on a BIG-IP (view, deploy, delete, etc)
 * Please view additional details for using the icrdk tool at https://github.com/f5devcentral/f5-icontrollx-dev-kit
   - rpmbuild must be installed on the machine running the script
